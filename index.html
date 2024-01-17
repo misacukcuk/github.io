@@ -45,8 +45,11 @@
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="qs-tab" data-bs-toggle="tab" data-bs-target="#qs" type="button" role="tab" aria-controls="qs" aria-selected="false">Quick Service</button>
           </li>
-          <li class="nav-item" role="presentation">
+	  <li class="nav-item" role="presentation">
             <button class="nav-link" id="mb-sale" data-bs-toggle="tab" data-bs-target="#sale" type="button" role="tab" aria-controls="sale" aria-selected="false">Mobile Sale</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="mb-salede" data-bs-toggle="tab" data-bs-target="#sale" type="button" role="tab" aria-controls="sale" aria-selected="false">Mobile Sale DE</button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="mb-kds" data-bs-toggle="tab" data-bs-target="#kds" type="button" role="tab" aria-controls="kds" aria-selected="false">Mobile KDS</button>
@@ -700,8 +703,37 @@
               </tbody>
             </table>
           </div>
+
+	<div class="tab-pane fade" id="sale" role="tabpanel" aria-labelledby="mb-sale">
+            <table class="table table-bordered w-auto table-striped">
+              <thead>
+                <tr>
+                  <th>Vòng lặp</th>
+                  <th>Phiên bản</th>
+                  <th>Link MISA</th>
+                  <th>Trạng thái</th>
+                </tr>
+              </thead>
+              <tbody>
+		<tr>
+                  <td>R112</td>
+                  <td>112</td>
+                  <td><a class="btn btn-sm btn-outline-danger" target="_blank" href="#"> Download</a></td>
+                  <td><span class="badge bg-danger">Đang phát triển</span></td>
+                </tr>
+		<tr>
+                  <td>R111</td>
+                  <td>111.0.0.41</td>
+                  <td><a class="btn btn-sm btn-outline-primary" target="_blank" href="">Download</a></td>
+                  <td>
+                    <span class="badge bg-success">Chính thức</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 		  
-		  <div class="tab-pane fade" id="sale" role="tabpanel" aria-labelledby="mb-sale">
+	<div class="tab-pane fade" id="sale" role="tabpanel" aria-labelledby="mb-salede">
             <table class="table table-bordered w-auto table-striped">
               <thead>
                 <tr>
